@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { PageTitle } from "../headings";
-import { Main } from "../layouts";
+import { PageTitle } from "./page-title";
+import { Main } from "./main";
 
 type Props = { title: string; children: ReactNode };
 
